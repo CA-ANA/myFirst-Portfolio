@@ -1,0 +1,102 @@
+.experiencia__caixa {
+  background: url(file:///C:/Users/filip/Desktop/ALURA/codificadorana.png) no-repeat;
+  background-size: 10px;
+  background-position: center;
+  box-shadow: 0px 10px 14px -5px rgb(0 0 0 / 75%);
+  display: flex;
+  margin-bottom: 2rem;
+  width: 65%;
+}
+
+.experiencia__caixa-2 {
+  background: url(file:///C:/Users/filip/Desktop/ALURA/logica/HTML%20e%20CSS3%20parte%201%20e%202%20e%203/banner.jpg) no-repeat;
+  background-position: center;
+  box-shadow: 0px 10px 14px -5px rgb(0 0 0 / 75%);
+  display: flex;
+  margin-bottom: 3rem;
+  width: 65%;
+  margin-left: auto;
+  margin-top: 3rem;
+}
+
+.experiencia__caixa-3 {
+  background: url(file:///C:/Users/filip/Desktop/LAYOUTS%20MOBILE/img/comecando-criar-logotipo.png) no-repeat;
+  background-position: center;
+  box-shadow: 0px 10px 14px -5px rgb(0 0 0 / 75%);
+  display: flex;
+  margin-bottom: 2rem;
+  width: 65%;
+}
+
+@media screen and (min-width: 375px) {
+  .experiencia__caixa {
+      background-size: 90%;
+      height: 15rem;
+      width: 100%;
+  }
+
+  .experiencia__caixa-2 {
+      background-size: 90%;
+      margin: 13rem 0;
+      height: 15rem;
+      width: 100%;
+  }
+
+  .experiencia__caixa-3 {
+      background-size: 90%;
+      margin-top: 15rem;
+      height: 15rem;
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .experiencia__caixa {
+      background-size: 90%;
+      height: 22rem;
+      width: 100%;
+  }
+
+  .experiencia__caixa-2 {
+      margin-top: 15rem;
+      height: 22rem;
+      width: 100%;
+  }
+
+  .experiencia__caixa-3 {
+      margin-top: 15rem;
+      height: 22rem;
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .experiencia__caixa {
+      align-items: center;
+      background-size: 100%;
+      height: 25rem;
+      width: 55%;
+      
+  }
+
+  .experiencia__caixa-2 {
+      align-items: center;
+      background-size: 100%;
+      flex-direction: row-reverse;
+      height: 25rem;
+      margin-left: 45%;
+      margin-top: 5rem;
+      width: 55%;
+    
+  }
+
+  .experiencia__caixa-3 {
+      align-items: center;
+      background-size: 100%;
+      height: 25rem;
+      margin-top: -8rem;
+      width: 55%;
+     
+      
+  }
+}
